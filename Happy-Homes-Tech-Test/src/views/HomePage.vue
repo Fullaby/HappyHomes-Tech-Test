@@ -22,7 +22,7 @@ export default {
     <div>
         <h1 class="mb-10">Product Cards</h1>
         <v-row>
-    <CardBasic v-for="(el, index) in $store.state.test" :key="index" :product="el" />
+    <CardBasic v-for="(el, index) in $store.state.getProduct" :key="index" :product="el" />
         </v-row>
     </div>
 </template>

@@ -7,11 +7,11 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    test: 'testing'
+    getProduct: 'testing'
   },
   mutations: {
     fetchData(state, data){
-     state.test= data.products
+     state.getProduct= data.products
     }
   },
   actions: {
